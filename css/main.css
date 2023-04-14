@@ -1,0 +1,19 @@
+body{
+    font-size: 2rem;
+}
+div{
+    border: px solid black;
+    padding: 30px;
+    width: 93%;
+    background-color: rgb(202, 231, 231);
+}
+label{
+    color: blue;
+}
+div{
+    font-size: 3rem;
+
+}
+body{
+    border: 2px solid black
+}
