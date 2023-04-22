@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>formulario</title>
+</head>
+<body>
+          <h1>Mecanica Fujuara</h1>
+          <h2>Formulario de cadastro para mecanico </h2>
+    <main>
+        <form action="api/postur1">
+            <div>
+                <label for="idtexto">Nome de usuario</label>
+                <input type="text" id="idtexto" name="idtexto"/>
+            </div>
+             <div>
+                  <label for="idpassword">Senha</label>
+            <input type="password" id="idpassword" name="idpassword"/>    
+            </div>
+            <div>
+                <label for="iddata"> Data</label>
+            <input type="date" id="iddata" name="iddata"/>
+            </div>
+              <H3>Mande um video de ate 5 minutos mostrando um pouco do seu trabalho </H3> 
+            <div>
+                <label for="idfile">Arquivo</label>
+                <input type="file" id="idfile" name="idfile"/>
+            </div>
+            <div>
+            <label for="idemail">Email para contato </label>
+            <input type="email" id="idemail" name="idemail"/>
+            </div>
+                     <h3>experiencia com quais veiculos</h3>
+            <div>
+                <label for="idcheck1">Carros</label>
+                <input type="checkbox" id="idcheck1" name="idcheck" value="check 1"/>
+                <label for="idcheck2">Motocicletas</label>
+                <input type="checkbox" id="idcheck2" name="idcheck" value="check 2"/>
+                <label for="idcheck3">Caminhoes</label>
+                <input type="checkbox" id="idcheck3" name="idcheck" value="check 3">
+            </div>
+                   <h3>experiencia em qual  area </h3>
+            <div>
+                <label for="idradio1">Montagem e desmontagem de motor </label>
+                <input type="radio" id="Motor" name="idradio"  value="Motr"/>
+                <label for="idradio2">Lantenagem e Pintura </label>
+                <input type="radio" id="Lanternagem" name="idradio" value="Lanternagem"/>
+                <label for="idradio3">Revisao basica e troca de pecas simples</label>
+                <input type="radio"id="revisao" name="idradio" value="Revisao"/>
+            </div>
+                  <h3>Descreva com ate dois mil caracteres sua experincia locais onde trabalhou tempo de servico e qual sua area dominante  </h3>
+            <div>
+                <label for="idtextarea"></label>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </div>
+            <input type="submit"> 
+
+
+        </form>
+    </main>
+</body>
+</html>
